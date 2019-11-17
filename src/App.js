@@ -1,25 +1,47 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+   
+
+    <div className =" container center">
+
+    <nav className = "manu">
+       <h1 className=" menu_logo">Epic co.</h1>
+
+       <div className = "manu-right">
+        <ul className = " menu_list">
+        <li className="menu__list-item"><a className="menu__link menu__link--active" href="#">Home</a></li>
+        <li className="menu__list-item"><a className="menu__link" href="#">About</a></li>
+        <li className="menu__list-item"><a className="menu__link" href="#">Portfolio</a></li>
+        <li className="menu__list-item"><a className="menu__link" href="#">Contact</a></li>
+
+
+        </ul>
+        <button className="menu__search-button"></button>
+        
+        <form className="menu__search-form hide" method="POST">
+        <input class="menu__search-input" placeholder="Type and hit enter"/>
+
+        </form>
+       
+       </div>
+      
+    </nav>
+
+
+
+
+
     </div>
+
+
+
+
+
+      
+  
   );
 }
 

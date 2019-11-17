@@ -5,7 +5,12 @@ import searchIcon from './search-icon.png';
 
 class EpicMenu extends  Component {
 
+    
+    
+
     render(){
+
+        console.log(this.props.links)
 
         return(
 
